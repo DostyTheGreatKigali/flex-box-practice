@@ -43,7 +43,7 @@ nav {
     list-style: none;
     padding-right: 2.5em;
 }
-li {
+.first___nav__ul li, .second___nav__ul li {
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -74,7 +74,7 @@ li {
     width: 60%;
     /* background-color: aquamarine; */
     font-size: 18px;
-    /* padding-left: 0.5em; */
+    padding-left: 2.5em;
     /* padding-right: ; */
 } 
 .third___item {
@@ -102,6 +102,49 @@ li {
     cursor: pointer;
 }
 
+.main___footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: palevioletred;
+}
+.first___footer___div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: blue;
+    /* list-style: none; */
+}
+.second___footer___div h3, .third___footer___div h3, .fourth___footer___div h3 {
+    text-align: center;
+}
+.first___footer__ul, .second___footer__ul, .third___footer__ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.second___footer___div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: blueviolet; 
+}
+.third___footer___div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: red;
+}
+.fourth___footer___div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: coral;
+}
+
+/* MEDIA QUERIES */
 @media only screen and (max-width: 456px) {
     .main___container {
         display: flex;
@@ -183,10 +226,19 @@ li {
         list-style: none;
         padding-right: 1em;
     }
-    li {
+    .first___nav__ul li, .second___nav__ul li {
         padding-left: 1em;
         padding-right: 1em;
-    }    
+    }
+    .main___footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: palevioletred;
+    }  
+    .second___footer___div h3, .third___footer___div h3, .fourth___footer___div h3 {
+        align-self: flex-start
+    }
 
 }
     
