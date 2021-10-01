@@ -230,15 +230,6 @@ img {
         width: 20%;
         border-radius: 0.2rem;
     }
-
-    .dashed___line {
-        border-left: 0px dashed red;
-        width: 0px;
-        margin-top: 0em;
-        margin-bottom: 0em;
-        /* align-self: flex-end; */
-        /* height: 100%; */
-    }
     
 }
 
