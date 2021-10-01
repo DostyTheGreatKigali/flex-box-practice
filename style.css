@@ -85,7 +85,16 @@ nav {
     width: 20%;
     margin-top: 0;
     /* background-color: palevioletred; */
+    /* border-left: 1px dashed red; */
 } 
+.dashed___line {
+    border-left: 1px dashed red;
+    width: 1px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* align-self: flex-end; */
+    /* height: 100%; */
+}
 
 .person___name {
   font-size: 1em;
