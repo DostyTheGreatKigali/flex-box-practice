@@ -169,10 +169,10 @@ footer {
     display: flex;
     flex-direction: column;
     list-style: none;
+    /* justify-content: center;
+    align-items: center; */
     justify-content: center;
-    align-items: center;
-    /* justify-content: flex-start;
-    align-items: flex-start; */
+    align-items: flex-start;
     width: 25%;
 }
 .second___footer___div {
@@ -200,19 +200,64 @@ footer {
 .heading___ul {
     font-size: 1.3em;
     /* align-self: center; */
-    text-align: center;
+    text-align: left;
+    padding-left: 1em;
 }
 
 .minor___footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: palevioletred;
     padding-left: 3em;
     padding-right: 3em;
-    /* margin-top: 2em; */
     background-color: black;
+    padding-top: 1em;
 }
+.copyright___privacy___terms {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: black; */
+}
+.copyright {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: black; */
+}
+.privacy___terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding-left: 3em;
+    padding-right: 3em;
+    background-color: black; */
+}
+.quick___links {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: black; */
+    padding-top: 1em;
+}
+
+.quick___links__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.quick___links__ul li {
+    color: white;
+}
+
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 456px) {
@@ -348,7 +393,36 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: black;
+        padding-left: 1em;
+        padding-right: 2em;
     }  
 
+    .quick___links__ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        list-style: none;
+    }
+
+}
+
+@media (min-width: 592px) and (max-width: 616px) {
+    .minor___footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    } 
+    .privacy___terms {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* padding-left: 3em;
+        padding-right: 3em;
+        background-color: black; */
+    }
 }
     
