@@ -130,7 +130,7 @@ img {
 }
 
 footer {
-    
+    background-color: #263238; 
 }
 
 .main___footer {
@@ -138,19 +138,21 @@ footer {
     /* flex: 1; */
     flex-direction: row;
     justify-content: space-around;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
+    /* background-color: #263238; */
     padding-left: 3em;
     padding-right: 3em;
     margin-top: 2em;
     padding-bottom: 3em;
     padding-top: 3em;
+    color: #fff;
     
 }
 .first___footer___div {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    background-color: blue;
+    /* background-color: blue; */
     /* list-style: none; */
     width: 25%;
     padding-left: 1em;
@@ -175,21 +177,21 @@ footer {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 25%; 
 }
 .third___footer___div {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    background-color: red;
+    /* background-color: red; */
     width: 25%;
 }
 .fourth___footer___div {
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    background-color: coral;
+    /* background-color: coral; */
     width: 25%;
 }
 
@@ -365,7 +367,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        background-color: palevioletred;
+        /* background-color: palevioletred; */
         padding-left: 2em;
         padding-right: 2em;
     }  
