@@ -218,7 +218,7 @@ footer {
     
 }
 .copyright {
-   
+   padding-left: 3em;
 }
 .privacy___terms {
     display: flex;
@@ -395,7 +395,11 @@ footer {
         background-color: black;
         padding-left: 1em;
         padding-right: 2em;
-    }  
+    } 
+    
+    .copyright {
+        padding-left: 1em;
+     }
 
     .quick___links__ul {
         display: flex;
@@ -419,10 +423,14 @@ footer {
     .privacy___terms {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-around;
         /* padding-left: 3em;
         padding-right: 3em;
         background-color: black; */
     }
+
+    .copyright {
+        padding-left: 0.18em;
+     }
 }
     
